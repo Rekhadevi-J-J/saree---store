@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Saree Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Rekhadevi Saree Store</h1>
+  </header>
+
+  <section class="product-container">
+    <div class="product-card" data-title="Kanchipuram Saree" data-description="A rich silk saree with gold border." data-image="https://via.placeholder.com/300x350.png?text=Kanchipuram+Saree">
+      <img src="https://via.placeholder.com/300x350.png?text=Kanchipuram+Saree" alt="Kanchipuram Saree" class="view-details">
+      <h3 class="view-details">Kanchipuram Saree</h3>
+      <button class="add-to-cart-btn">Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-title="Banarasi Saree" data-description="Elegant red Banarasi saree with zari work." data-image="https://via.placeholder.com/300x350.png?text=Banarasi+Saree">
+      <img src="https://via.placeholder.com/300x350.png?text=Banarasi+Saree" alt="Banarasi Saree" class="view-details">
+      <h3 class="view-details">Banarasi Saree</h3>
+      <button class="add-to-cart-btn">Add to Cart</button>
+    </div>
+  </section>
+
+  <div id="productModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modal-image" src="" alt="Modal Image" />
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
